@@ -1,6 +1,6 @@
 - 👋 Hola, Soy @whitehax0r tambien conocido como (razr2312) en Twitter.
 - 💞️ Estoy intentando colaborar en la comunidad de PS4 Linux y mas cosas de interes.
-- 📫 Como me puedes contactar, al final de este proyecto lo sabras.
+- 📫 Como puedes contactarme?, al final de este proyecto lo sabras.
 <!---
 whitehax0r/whitehax0r is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
@@ -8,7 +8,7 @@ You can click the Preview link to take a look at your changes.
 
 # ArchLinux-PS4v2
 
-Esta es una verson de Arch Linux actualizada y compilada con unos toques personales relacionados mas a la interfaz grafica para que se vea mejor y con algunos emuladores.
+Esta es una version de Arch Linux actualizada y compilada con unos toques personales relacionados a la interfaz grafica para que se vea mejor y con algunos emuladores.
 
 ![desktop2](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/6559def618abc72d2f730d68b3dc5a064a29f5d5/Screenshot_2022-07-17_18-54-34.png)
 
@@ -52,7 +52,7 @@ Esta es una verson de Arch Linux actualizada y compilada con unos toques persona
 - WineStaging - Wine es una capa de compatibilidad capaz de ejecutar aplicaciones de Windows en varios sistemas operativos compatibles con POSIX, como Linux, macOS y BSD.
 - Wine GE on Lutris - WINE basado en un fork del más reciente repositorio experimental de WINE de PROTON steam. Esto está destinado a ser utilizado con juegos que no son de Steam fuera de Steam.
 
-# Requerimietos obligatorios
+# Requerimientos obligatorios
 - Un cerebro xD y mucha paciencia.
 - USB|HDD|SDD 3.0
 - USB Hub para que conectes multiples dispositivos USB. (opcional)
@@ -152,12 +152,12 @@ Necesitas una computadora con Linux para seguir estos pasos. Este metodo es rapi
 - Ahora conecta tu dispositivo USB|HDD|SDD 3.0 a tu PS4, asegurate que tu dispositivo USB|HDD|SDD 3.0 esta conectado al puerto USB que esta mas cerca de la lectora de discos Blu-ray.
 - Ahora abre el navegador web de tu PS4 y lanza el payload Linux PSXITA de este [host](http://karo218.ir/900CM/index.html) selecciona >> Linux Group >> escoge el payload de PSXITA con la cantidad de VRAM que tu prefieras y sigue las instrucciones.
 
-## Pasos Post-Instalacion (de los que siguieron el Metodo Recomendado)
+## Pasos Post-Instalacion (en caso de que hallas seguido el Metodo Recomendado)
 
 - Conecta tu dispositivo USB|HDD|SDD 3.0 a tu PS4, asegurate que tu dispositivo USB|HDD|SDD 3.0 esta conectado al puerto USB que esta mas cerca de la lectora de discos Blu-ray.
 - Ahora abre el navegador web de tu PS4 y lanza el payload Linux PSXITA de este [host](http://karo218.ir/900CM/index.html) selecciona >> Linux Group >> escoge el payload de PSXITA con la cantidad de VRAM que tu prefieras y sigue las instrucciones.
 
-## Cambiando la fecha y hora del sistema.
+## Cambiando la zona horaria con fecha y hora del sistema.
 
 La primera vez que arranques ArchLinux-PS4v2 necesitas arreglar la fecha y la hora del sistema. ⚠️Conecta tu PS4 a la red WiFi o por LAN. ⚠️
 
@@ -198,11 +198,11 @@ Si vas a correr juegos con Wine, Swap necesita estar habilitado, solo escribe lo
 
 >__sudo swapon /swapfile__
 
-Finalmente, edita la configuracion de fstab y agrega una nueva entrada al archivo: 
+Finalmente, edita la configuracion de fstab y agrega una nueva linea al archivo: 
 
 >__sudo nano /etc/fstab__
 
-Copia y pega esto al final de fichero:
+Copia y pega esto al final del fichero:
 /swapfile none swap defaults 0 0
 
 En tu teclado presiona CTRL + O y luego "yes" y guardaras los cambios.
