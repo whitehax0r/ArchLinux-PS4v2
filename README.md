@@ -49,6 +49,7 @@ This is a compiled and updated Arch Linux with some personal changes more relate
 - FeralGameMode - Is a daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS and/or a game process.
 - WineStaging - Wine is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD.
 - Wine GE on Lutris - WINE based on/forked from the most recent bleeding-edge proton experimental wine repo. This is meant to be used with non-steam games outside of Steam.
+- ProtonVPN - High-speed Swiss VPN that safeguards your privacy.
 
 # Mandatory requirements
 - A brain xD and a lot of patience.
