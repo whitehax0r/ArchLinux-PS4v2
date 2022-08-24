@@ -97,7 +97,7 @@ This is a compiled and updated Arch Linux with some personal changes more relate
 - :warning: If you use the same initramfs.cpio.gz from this Github project, the name of this OS should be psxitarch.tar.xz :warning:
 - The total of 4 files should be on the root of your USB 3.0 Device bzImage, the initramfs.cpio.gz, bootargs.txt and arch.tar.xz or psxitarch.tar.xz.
 - Then connect your USB 3.0 Device with all the needed files to your PS4, make sure to connect the USB|HDD|SDD 3.0 Device and the USB slot that is near from the PS4 Blue-ray Disc Drive.
-- Open the PS4 web browser and launch the Linux PSXITA 1 GB payload, use this [one](http://karo218.ir/900CM/index.html) select >> Linux Group.
+- Open the PS4 web browser and launch the JB+LINUX (VRAM 1GB) payload, use this [one](https://sleirsgoevy.github.io/900-host/).
 - Follow the instructions in order to jailbreak your PS4.
 
 ## First Run Linux installation
@@ -118,7 +118,7 @@ If you got an error like this one: "mount -o ro /newroot failed" just type the f
 ## Post installation steps (for the ones who follows the Traditional Method)
 
 - Connect your USB|HDD|SDD 3.0 to a computer and copy again the [bootargs.txt](https://mega.nz/file/2qBCTJpR#CTD_nQOLFsrBMcau-KS6QitasbuVAXx_PPN22Wk2qoo) file in the root of the FAT32 partition.
-- Jailbreak again your PS4 with Karo218 [host](http://karo218.ir/900CM/index.html) and then click on >> Linux Group and select the Linux PSXITA payload of your preference.
+- Jailbreak again your PS4 with Sleirsgoevy [host](https://sleirsgoevy.github.io/900-host/) and then click on >> select JB+LINUX (VRAM 1GB) payload.
 - You will be again in the rescueshell, just type:
 >__exec start-psxitarch.sh__
 
@@ -149,12 +149,12 @@ You need a computer with Linux in order to follow this steps. This method is fas
 >__sudo tar -xvJpf /home/$USER/Downloads/psxitarch.tar.xz -C /media/$USER/psxitarch__
 - Once this finish, eject safely your USB|HDD|SDD 3.0 from your comptuter.
 - Then connect your USB 3.0 Device with all the needed files to your PS4, make sure to connect the USB|HDD|SDD 3.0 Device and the USB slot that is near from the PS4 Blue-ray Disc Drive.
-- Open the PS4 web browser and launch the Linux PSXITA payloads, use this [one](http://karo218.ir/900CM/index.html) select >> Linux Group >> choose your desire amount of VRAM PSXITA payload and follow the instructions.
+- Open the PS4 web browser and launch the JB+LINUX (VRAM 1GB) or (VRAM 3GB)payload, use this [host](https://sleirsgoevy.github.io/900-host/). 
 
 ## Post installation steps (for the ones who follows the Recommended Method)
 
 - Connect your USB 3.0 Device with all the needed files to your PS4, make sure to connect the USB|HDD|SDD 3.0 Device and the USB slot that is near from the PS4 Blue-ray Disc Drive.
-- Open the PS4 web browser and launch the Linux PSXITA payloads, use this [one](http://karo218.ir/900CM/index.html) select >> Linux Group >> choose your desire amount of VRAM PSXITA payload and follow the instructions.
+- Open the PS4 web browser and launch the JB+LINUX (VRAM 1GB) or (VRAM 3GB)payload, use this [host](https://sleirsgoevy.github.io/900-host/).
 
 ## Changing the System Time and Date
 
@@ -184,7 +184,7 @@ Now just wait about 5~10 seconds and you will see your date and time will change
 # Recommended emulators and tips:
 
 - RPCS3 - PS3 emulator. (You can try with the AppImage in their [website.](https://rpcs3.net/download))
-- PCSX2 - PS2 emulator(Choose 64 bits Qt). (You can try with the AppImage in their [website.](https://pcsx2.net/downloads/#nightly-anchor))
+- PCSX2 - PS2 emulator. (You can try with the AppImage in their [website.](https://pcsx2.net/downloads/#nightly-anchor))
 - Nintendo Switch emulator. (You can try with the AppImage in their [website.](https://yuzu-emu.org/downloads/))
 
 If you will run games on Wine, Swap should be enable, run the following commands:
