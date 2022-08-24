@@ -246,6 +246,18 @@ I will upload a video later.
 ## I'm not sure about my PS4 Hardware?
 You can search [here](https://www.psdevwiki.com/ps4/Southbridge#Southbridge_revisions) or [here.](https://www.psdevwiki.com/ps4/)
 
+## I want to install MangoHUD and GOverlay.
+MangoHUD
+Download the package MangoHUDxxx.tar.gz from [here](https://github.com/flightlessmango/MangoHud/releases)
+Extract the package using the terminal with the following command: tar -xvf MangoHUDxxx.tar.gz
+Then type on the terminal: cd MangoHud
+Then type: ./mangohud-setup.sh
+MangoHUD is installed now.
+
+GOverlay
+Open the terminal and type the following command: yay -S goverlay-git
+GOverlay is installed now.
+
 ## Where I can find those PS4 kernels and initramfs.cpio.gz for other PS4's hardware Fat and Pro version?
 Well you can download those files from Hakkuraifu [Github.](https://github.com/Hakkuraifu/PS4Linux-Documentation)
 There is a posibility my this distro will not work properly with the PS4 Pro due the MESA drivers.
