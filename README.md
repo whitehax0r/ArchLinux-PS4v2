@@ -10,7 +10,7 @@ You can click the Preview link to take a look at your changes.
 
 This is a compiled and updated Arch Linux with some personal changes more related to GUI to look better and some emulators.
 
-![desktop2](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/6559def618abc72d2f730d68b3dc5a064a29f5d5/Screenshot_2022-07-17_18-54-34.png)
+![desktop2](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/2ba4c9d407440a07d327011caef73b2786445ff3/Desktop.png)
 
 # Features
 
