@@ -64,16 +64,31 @@ This is a compiled and updated Arch Linux with some personal changes more relate
 - Model CUH-2115B.
 - SouthBridge Baikal with Liverpool.
 
-⚠️ If you have a PS4 Fat or PS4 Pro version check in the little FAQ for more details. Read the complete guide first please. ⚠️
+# Kernel Features
+Those Kernels are based from LTS(LongTerm Support) version 5.4.210 realease date 2022-08-11. Means that maintainers will provide bugfixes for this kernel revision for a much longer period of time.
+- Support OverlayFS.
+- Support SquashFS.
+- TUN/TAP support. (Works with the VPN client of your preference)
 
-## If you have same PS4 hardware as me you can use these files from below:
+## If you have same PS4 hardware you can use these files:
 
 - [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) or [Download here](https://mega.nz/file/2qBCTJpR#CTD_nQOLFsrBMcau-KS6QitasbuVAXx_PPN22Wk2qoo) MD5 >__C84AD779CE76762C04CBF80E420E324D__
-- [initramfs.cpio.gz](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/c01e7d6162ad8029748b408f930f5b9952734418/initramfs.cpio.gz) MD5 >__826d6e22c76ded87e18df7ceba8a9630__
-- [XanMod bzImage-baikal](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/3766ae7a6b7f3f47b705f90e6ad4df168cf4d47e/bzImage) MD5 >__7d460b453c9fec3f2f99be0667d18cc1__
-- [XanMod bzImage-baikal-1.9Ghz](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/8363f7fdfc1a0a37d59430b5aedd008b0ee57cad/bzImage1.9) MD5 >__cb5b65295ea9b34d6d1a4e8cb9c3cc8b__
+- [initramfs.cpio.gz](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/c01e7d6162ad8029748b408f930f5b9952734418/initramfs.cpio.gz)
+- 5.4.210 [Baikal 1.6 Ghz](https://mega.nz/file/W3gSGA6Q#Oafpe8Q7_iUCfvaoQkyiqRIeocD2_WZ1wh8Afp6_6mQ)
+- 5.4.210 [Baikal 1.9 Ghz](https://mega.nz/file/zmBgWJpb#jnWJdYjcQcxnMgQVXtiOPCTJjR8irMxqh2S9rJelBPc) 
+- XanMod [Baikal 1.6 Ghz](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/3766ae7a6b7f3f47b705f90e6ad4df168cf4d47e/bzImage)
+- XanMod [Baikal 1.9Ghz](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/8363f7fdfc1a0a37d59430b5aedd008b0ee57cad/bzImage1.9)
 - [archv2.tar.xz](https://mega.nz/file/vn5glJbB#ZWSZA7scPuyx1UkOiM_UW7NoUxxMc_L3pJGiUWKbmRI) MD5 >__8bbd77efb78250a8d5eba6cd0201bb54__
 - ⚠️ Don't forget to rename this file archv2.tar.xz to psxitarch.tar.xz ⚠️ 
+- ⚠️ Don't forget to rename these Kernel Baikal files to bzImage ⚠️ 
+
+## If you have a PS4 Fat or PS4 Pro version you can try these Kernels:
+- [Aeolia 1.6 Ghz](https://mega.nz/file/fvgUCZpB#CEcxr2plEF-zSAy3XLpMjEJH4Hq0dxEeTOlx-JvGti4)
+- [Aeolia 1.9 Ghz](https://mega.nz/file/rjBgFaRJ#MXc9cOAPBDsKbXXYETBFXYJUpxGVdDpRWq1XuFEfTMg)
+- [Belize 1.6 Ghz](https://mega.nz/file/DyAmVZ5Y#xd8MbuExpYM19rwsc0iwru7iIkrZpyelnFTJl_jucOo)
+- [Belize 1.9 Ghz](https://mega.nz/file/nyoFTZLA#13w00tZjVRWRGUXYWLgpmlyIJ0i4o__AWydgv1Nbq_8)
+- ⚠️ Don't forget to rename these files to bzImage ⚠️ 
+- ⚠️ These Kernels are untested, I don't have these model of PS4, please try it and let me know it works or not ⚠️ 
 
 # Preparing your PS4 system.
 
@@ -257,11 +272,6 @@ MangoHUD:
 GOverlay:
 - Open the terminal and type the following command: yay -S goverlay-git
 - GOverlay is installed now.
-
-## Where I can find those PS4 kernels and initramfs.cpio.gz for other PS4's hardware Fat and Pro version?
-Well you can download those files from Hakkuraifu [Github.](https://github.com/Hakkuraifu/PS4Linux-Documentation)
-There is a posibility my this distro will not work properly with the PS4 Pro due the MESA drivers.
-PS4 pro requires a new complete distro with MESA that support GLADIUS. I will create a new ArchLinux-PS4v2 for PS4 Pro later.
 
 # Social Medias
 
