@@ -14,7 +14,7 @@ This is a compiled and updated Arch Linux with some personal changes more relate
 
 # Features
 
-## Everything has been updated until July 18/2022
+## Everything has been updated until August 23/2022
 
 - Parallel Downloads enabled.
 - Updated PS4 drivers with latest stable Mesa, libdrm and xf86-video-amdgpu.
@@ -47,8 +47,6 @@ This is a compiled and updated Arch Linux with some personal changes more relate
 - P7zip - Commandline 7zip support for Linux.
 - Htop - See process and other stuff.
 - FeralGameMode - Is a daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS and/or a game process.
-- GOverlay - Is a GUI application that can be used to manage the config of MangoHud.
-- MangoHud - A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 - WineStaging - Wine is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD.
 - Wine GE on Lutris - WINE based on/forked from the most recent bleeding-edge proton experimental wine repo. This is meant to be used with non-steam games outside of Steam.
 
@@ -73,7 +71,8 @@ This is a compiled and updated Arch Linux with some personal changes more relate
 - [initramfs.cpio.gz](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/c01e7d6162ad8029748b408f930f5b9952734418/initramfs.cpio.gz) MD5 >__826d6e22c76ded87e18df7ceba8a9630__
 - [XanMod bzImage-baikal](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/3766ae7a6b7f3f47b705f90e6ad4df168cf4d47e/bzImage) MD5 >__7d460b453c9fec3f2f99be0667d18cc1__
 - [XanMod bzImage-baikal-1.9Ghz](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/8363f7fdfc1a0a37d59430b5aedd008b0ee57cad/bzImage1.9) MD5 >__cb5b65295ea9b34d6d1a4e8cb9c3cc8b__
-- [psxitarch.tar.xz](https://mega.nz/file/Lr5DzaTa#eGAeTeZQ03DZmrx0VUvpddrbcnY0M0u3zGIiI9nnl-Y) MD5 >__462773f71b7d6e957512dcdee9aa78b1__
+- [archv2.tar.xz](https://mega.nz/file/vn5glJbB#ZWSZA7scPuyx1UkOiM_UW7NoUxxMc_L3pJGiUWKbmRI) MD5 >__8bbd77efb78250a8d5eba6cd0201bb54__
+- ⚠️ Don't forget to rename this file archv2.tar.xz to psxitarch.tar.xz ⚠️ 
 
 # Preparing your PS4 system.
 
