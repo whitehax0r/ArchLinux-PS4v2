@@ -199,11 +199,11 @@ Now just wait about 5~10 seconds and you will see your date and time will change
 
 # Recommended emulators and tips:
 
-- RPCS3 - PS3 emulator. (You can try with the AppImage in their [website.](https://rpcs3.net/download))
-- PCSX2 - PS2 emulator. (You can try with the AppImage in their [website.](https://pcsx2.net/downloads/#nightly-anchor))
-- Nintendo Switch emulator. (You can try with the AppImage in their [website.](https://yuzu-emu.org/downloads/))
+- RPCS3 - PS3 emulator. (You can try their[AppImage.](https://rpcs3.net/download))
+- PCSX2 - PS2 emulator. (You can try their[AppImage.](https://pcsx2.net/downloads/#nightly-anchor))
+- Nintendo Switch emulator. (You can try their[AppImage.](https://yuzu-emu.org/downloads/))
 
-If you will run games on Wine, Swap should be enable, run the following commands:
+If you run games on Wine, Swap should be enable, just run the following commands:
 
 >__sudo dd if=/dev/zero of=/swapfile bs=1M count=8192 status=progress__
 
