@@ -74,6 +74,8 @@ Those Kernels are based from LTS(LongTerm Support) version 5.4.210 realease date
 
 - [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) or [Download here](https://mega.nz/file/2qBCTJpR#CTD_nQOLFsrBMcau-KS6QitasbuVAXx_PPN22Wk2qoo) MD5 >__C84AD779CE76762C04CBF80E420E324D__
 - [initramfs.cpio.gz](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/c01e7d6162ad8029748b408f930f5b9952734418/initramfs.cpio.gz)
+- 4.19.255 [Baikal 1.6 Ghz](https://mega.nz/file/2mxRRZwT#TgkW1_QBiI24QKZerIYHoYebdpjEPvClXOi-ZYz61DQ)
+- 4.19.255 [Baikal 1.9 Ghz](https://mega.nz/file/LuBmDB7L#7jPfWuEgg1QM6-jgvGm1rr1cX0wT_6eSIA7ElQYybMo)
 - 5.4.210 [Baikal 1.6 Ghz](https://mega.nz/file/W3gSGA6Q#Oafpe8Q7_iUCfvaoQkyiqRIeocD2_WZ1wh8Afp6_6mQ)
 - 5.4.210 [Baikal 1.9 Ghz](https://mega.nz/file/zmBgWJpb#jnWJdYjcQcxnMgQVXtiOPCTJjR8irMxqh2S9rJelBPc) 
 - XanMod [Baikal 1.6 Ghz](https://github.com/whitehax0r/ArchLinux-PS4v2/blob/3766ae7a6b7f3f47b705f90e6ad4df168cf4d47e/bzImage)
@@ -83,10 +85,10 @@ Those Kernels are based from LTS(LongTerm Support) version 5.4.210 realease date
 - ⚠️ Don't forget to rename these Kernel Baikal files to bzImage ⚠️ 
 
 ## If you have a PS4 Fat or PS4 Pro version you can try these Kernels:
-- [Aeolia 1.6 Ghz](https://mega.nz/file/fvgUCZpB#CEcxr2plEF-zSAy3XLpMjEJH4Hq0dxEeTOlx-JvGti4)
-- [Aeolia 1.9 Ghz](https://mega.nz/file/rjBgFaRJ#MXc9cOAPBDsKbXXYETBFXYJUpxGVdDpRWq1XuFEfTMg)
-- [Belize 1.6 Ghz](https://mega.nz/file/DyAmVZ5Y#xd8MbuExpYM19rwsc0iwru7iIkrZpyelnFTJl_jucOo)
-- [Belize 1.9 Ghz](https://mega.nz/file/nyoFTZLA#13w00tZjVRWRGUXYWLgpmlyIJ0i4o__AWydgv1Nbq_8)
+- 5.4.210 [Aeolia 1.6 Ghz](https://mega.nz/file/fvgUCZpB#CEcxr2plEF-zSAy3XLpMjEJH4Hq0dxEeTOlx-JvGti4)
+- 5.4.210 [Aeolia 1.9 Ghz](https://mega.nz/file/rjBgFaRJ#MXc9cOAPBDsKbXXYETBFXYJUpxGVdDpRWq1XuFEfTMg)
+- 5.4.210 [Belize 1.6 Ghz](https://mega.nz/file/DyAmVZ5Y#xd8MbuExpYM19rwsc0iwru7iIkrZpyelnFTJl_jucOo)
+- 5.4.210 [Belize 1.9 Ghz](https://mega.nz/file/nyoFTZLA#13w00tZjVRWRGUXYWLgpmlyIJ0i4o__AWydgv1Nbq_8)
 - ⚠️ Don't forget to rename these files to bzImage ⚠️ 
 - ⚠️ These Kernels are untested, I don't have these model of PS4, please try it and let me know it works or not ⚠️ 
 
@@ -199,9 +201,9 @@ Now just wait about 5~10 seconds and you will see your date and time will change
 
 # Recommended emulators and tips:
 
-- RPCS3 - PS3 emulator. (You can try their[AppImage.](https://rpcs3.net/download))
-- PCSX2 - PS2 emulator. (You can try their[AppImage.](https://pcsx2.net/downloads/#nightly-anchor))
-- Nintendo Switch emulator. (You can try their[AppImage.](https://yuzu-emu.org/downloads/))
+- RPCS3 - PS3 emulator. (You can try their [AppImage.](https://rpcs3.net/download))
+- PCSX2 - PS2 emulator. (You can try their [AppImage.](https://pcsx2.net/downloads/#nightly-anchor))
+- Nintendo Switch emulator. (You can try their [AppImage.](https://yuzu-emu.org/downloads/))
 
 If you run games on Wine, Swap should be enable, just run the following commands:
 
